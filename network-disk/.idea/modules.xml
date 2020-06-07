@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/config-service/configservice.iml" filepath="$PROJECT_DIR$/config-service/configservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/discovery-service/discoveryservice.iml" filepath="$PROJECT_DIR$/discovery-service/discoveryservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/download-service/downloadservice.iml" filepath="$PROJECT_DIR$/download-service/downloadservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gateway-service/gatewayservice.iml" filepath="$PROJECT_DIR$/gateway-service/gatewayservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/message-service/messageservice.iml" filepath="$PROJECT_DIR$/message-service/messageservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/network-disk.iml" filepath="$PROJECT_DIR$/network-disk.iml" />
+      <module fileurl="file://$PROJECT_DIR$/task-service/taskservice.iml" filepath="$PROJECT_DIR$/task-service/taskservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/upload-service/uploadservice.iml" filepath="$PROJECT_DIR$/upload-service/uploadservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/user-service/userservice.iml" filepath="$PROJECT_DIR$/user-service/userservice.iml" />
+    </modules>
+  </component>
+</project>

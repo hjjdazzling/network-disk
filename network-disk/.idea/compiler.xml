@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="discoveryservice" />
+        <module name="userservice" />
+        <module name="downloadservice" />
+        <module name="gatewayservice" />
+        <module name="configservice" />
+        <module name="messageservice" />
+        <module name="taskservice" />
+        <module name="uploadservice" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="configservice" target="1.8" />
+      <module name="discoveryservice" target="1.8" />
+      <module name="downloadservice" target="1.8" />
+      <module name="eureka" target="1.8" />
+      <module name="gatewayservice" target="1.8" />
+      <module name="messageservice" target="1.8" />
+      <module name="network-disk" target="1.8" />
+      <module name="taskservice" target="1.8" />
+      <module name="uploadservice" target="1.8" />
+      <module name="userservice" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="configservice" options="-parameters" />
+      <module name="discoveryservice" options="-parameters" />
+      <module name="downloadservice" options="-parameters" />
+      <module name="eureka" options="-parameters" />
+      <module name="gatewayservice" options="-parameters" />
+      <module name="messageservice" options="-parameters" />
+      <module name="taskservice" options="-parameters" />
+      <module name="uploadservice" options="-parameters" />
+      <module name="userservice" options="-parameters" />
+    </option>
+  </component>
+</project>

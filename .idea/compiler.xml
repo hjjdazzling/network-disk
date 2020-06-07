@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="message-service" />
+        <module name="gateway-service" />
+        <module name="config-service" />
+        <module name="task-service" />
+        <module name="user-service" />
+        <module name="upload-service" />
+        <module name="discovery-service" />
+        <module name="download-service" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="config-service" target="1.8" />
+      <module name="discovery-service" target="1.8" />
+      <module name="download-service" target="1.8" />
+      <module name="gateway-service" target="1.8" />
+      <module name="message-service" target="1.8" />
+      <module name="network-disk" target="1.8" />
+      <module name="task-service" target="1.8" />
+      <module name="upload-service" target="1.8" />
+      <module name="user-service" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/network-disk/config-service/config-service.iml" filepath="$PROJECT_DIR$/network-disk/config-service/config-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/network-disk/discovery-service/discovery-service.iml" filepath="$PROJECT_DIR$/network-disk/discovery-service/discovery-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/network-disk/download-service/download-service.iml" filepath="$PROJECT_DIR$/network-disk/download-service/download-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/network-disk/gateway-service/gateway-service.iml" filepath="$PROJECT_DIR$/network-disk/gateway-service/gateway-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/network-disk/message-service/message-service.iml" filepath="$PROJECT_DIR$/network-disk/message-service/message-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/network-disk/network-disk.iml" filepath="$PROJECT_DIR$/network-disk/network-disk.iml" />
+      <module fileurl="file://$PROJECT_DIR$/network-disk/task-service/task-service.iml" filepath="$PROJECT_DIR$/network-disk/task-service/task-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/network-disk/upload-service/upload-service.iml" filepath="$PROJECT_DIR$/network-disk/upload-service/upload-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/network-disk/user-service/user-service.iml" filepath="$PROJECT_DIR$/network-disk/user-service/user-service.iml" />
+    </modules>
+  </component>
+</project>

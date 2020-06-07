@@ -1,0 +1,33 @@
+server:
+  port: 0
+spring:
+  application:
+    name: gateway-service
+  datasource:
+    type: com.mchange.v2.c3p0.ComboPooledDataSource            # 当前数据源操作类型
+    driver-class-name: org.postgresql.Driver              # postgresql驱动包
+    url: jdbc:postgresql://192.168.10.103:5432/netword-disk              # 数据库名称
+    username: postgres
+    password: haojunjie
+    dbcp2:
+      min-idle: 15                                           # 数据库连接池的最小维持连接数
+      initial-size: 15                                       # 初始化连接数
+      max-total: 50                                          # 最大连接数
+eureka:
+  client:
+    # 定时刷新本地缓存时间：5秒
+    registryFetchIntervalSeconds: 5
+    #开启安全检查
+    healthcheck:
+      enabled: true
+    # Eureka server的地址,多个用逗号隔开
+    service-url:
+      defaultZone: http://localhost:8761/eureka
+  instance:
+    # 心跳间隔：5秒
+    lease-renewal-interval-in-seconds: 5
+    # 没有心跳的淘汰时间：10秒
+    lease-expiration-duration-in-seconds: 10
+    # 表示是够将自己的ip注册到Eureka Server，默认是false，则表示默认使用微服务所在的操作系统的hostname
+    prefer-ip-address: true
+    instance-id: ${spring.cloud.client.ip-address}:${server.port}
