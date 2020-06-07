@@ -60,12 +60,5 @@
             <artifactId>spring-cloud-starter-openfeign</artifactId>
         </dependency>
 
-                <dependency>
-                    <groupId>dom4j</groupId>
-                    <artifactId>dom4j</artifactId>
-                    <version>1.6.1-osgi</version>
-                    <classifier>osgi</classifier>
-                </dependency>
-
     </dependencies>
 </project>
